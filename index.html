@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boggle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>boggle</h1>
+    <hr>
+    <div id="board">
+        <div class="row" data-row="0">
+            <div class="piece purple" data-column="0">a</div>
+            <div class="piece" data-column="1">b</div>
+            <div class="piece" data-column="2">c</div>
+            <div class="piece" data-column="3">d</div>
+            <div class="piece purple" data-column="4">e</div>
+        </div>
+        <div class="row" data-row="1">
+            <div class="piece" data-column="0">a</div>
+            <div class="piece blue" data-column="1">b</div>
+            <div class="piece" data-column="2">c</div>
+            <div class="piece blue" data-column="3">d</div>
+            <div class="piece" data-column="4">e</div>
+        </div>
+        <div class="row" data-row="2">
+            <div class="piece" data-column="0">a</div>
+            <div class="piece" data-column="1">b</div>
+            <div class="piece grey" data-column="2">c</div>
+            <div class="piece" data-column="3">d</div>
+            <div class="piece" data-column="4">e</div>
+        </div>
+        <div class="row" data-row="3">
+            <div class="piece" data-column="0">a</div>
+            <div class="piece blue" data-column="1">b</div>
+            <div class="piece" data-column="2">c</div>
+            <div class="piece blue" data-column="3">d</div>
+            <div class="piece" data-column="4">e</div>
+        </div>
+        <div class="row" data-row="4">
+            <div class="piece purple" data-column="0">a</div>
+            <div class="piece" data-column="1">b</div>
+            <div class="piece" data-column="2">c</div>
+            <div class="piece" data-column="3">d</div>
+            <div class="piece purple" data-column="4">e</div>
+        </div>
+    </div>
+    <div id="info">
+        <div id="wrap">
+            <div id="word"></div>
+            <button type='submit' id="submit_word" href="#" target="_blank">
+                Submit Word
+            </button>
+            <div id="points">total points: <span>0</span></div>
+            <div id="used-words">Used Words: <span></span></div>
+            <div id="directions">Directions: <span>Pick Any Piece</span></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
