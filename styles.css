@@ -62,6 +62,13 @@ h1 {
     text-decoration: underline;
     height: 50px;
 }
+#points {
+    font-size: 17px;
+    font-weight: bold;
+}
+#desc {
+    margin-top: 30px;
+}
 #submit_word {
     color: #fff !important;
     text-transform: uppercase;
